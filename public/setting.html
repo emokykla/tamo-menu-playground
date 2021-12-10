@@ -1,0 +1,54 @@
+<style>
+    .settings-area {
+        background-color: white;
+        padding: 20px;
+        box-shadow: 5px 5px 15px 5px #cecece;
+        margin-bottom: 30px;
+    }
+
+    .settings-area__heading {
+        margin: 0 0 20px 0;
+    }
+
+    .settings-area__label {
+        margin-left: 20px;
+    }
+</style>
+<div class="settings-area">
+    <h1 class="settings-area__heading">Menu item preview tool</h1>
+    <label class="settings-area__label">
+        Text
+        <input
+                type="text"
+                data-action="setting#change"
+                data-setting-target="text"
+                value="super klasė"
+        >
+    </label>
+    <label class="settings-area__label">
+        Color
+        <input
+                type="text"
+                data-action="setting#change"
+                data-setting-target="color"
+                value="#FF714B"
+        >
+    </label>
+    <label class="settings-area__label">
+        Url
+        <input
+                type="text"
+                data-action="setting#change"
+                data-setting-target="url"
+                value="http://www.meteo.lt/lt"
+        >
+    </label>
+    <label class="settings-area__label">
+        Logo
+        <input
+                type="file"
+                data-action="setting#change"
+                data-setting-target="file"
+        >
+    </label>
+</div>
