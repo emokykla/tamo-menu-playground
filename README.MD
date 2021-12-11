@@ -12,8 +12,10 @@
 
 # How to deploy?
 
-1. Push changes to master.
-2. See ``https://emokykla.github.io/tamo-menu-playground``.
+1. Stop webpack watcher.
+2. Build using ``npm run build``.
+3. Push changes to master (including changes to built javascript).
+4. See ``https://emokykla.github.io/tamo-menu-playground``.
 
 # How tp update TAMO page template?
 
