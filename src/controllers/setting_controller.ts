@@ -14,7 +14,7 @@ export default class extends Controller {
     }
 
     load() {
-        fetch('/setting.html')
+        fetch('./setting.html')
             .then(response => response.text())
             .then(html => this.element.innerHTML = html)
     }
